@@ -3,11 +3,12 @@
     padding: 0%;
 }
 
-body {
+html, body {
     overflow-x: hidden;
     background-image: url(teste2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 #cabecalho {
@@ -63,6 +64,14 @@ main {
 
 @media (max-width: 768px) {
 
+body {
+        background-image: url(teste2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+    
 #cabecalho {
     height: auto;
     width: 100%;
@@ -74,7 +83,7 @@ main {
 }
 
 #logo {
-    width: 200px;
+    width: 20vh;
 }
 
 main {
