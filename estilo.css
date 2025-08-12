@@ -80,6 +80,7 @@ body {
     align-items: center;
     background-color: #004aab;
     padding: 1.2%;
+    overflow-y: hidden;
 }
 
 #logo {
