@@ -4,11 +4,10 @@
 }
 
 body {
+    overflow-x: hidden;
     background-image: url(teste2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
-
 }
 
 #cabecalho {
@@ -60,4 +59,54 @@ main {
 
 .botoes:hover {
     box-shadow: solid black;
+}
+
+@media (max-width: 768px) {
+
+#cabecalho {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004aab;
+    padding: 1.2%;
+}
+
+#logo {
+    width: 200px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#opcoes {
+    width: 90%;
+    height: auto;
+    background-color: #1a348b;
+    margin-top: 10%;
+    border-radius: 20px;
+    color: white;
+    padding: 1.2%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes {
+    text-decoration: none;
+    margin: 2%;
+    width: 80%;
+    height: 4vh;
+    background-color: white;
+    padding: 1.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
 }
